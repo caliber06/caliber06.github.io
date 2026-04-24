@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Share+Tech+Mono&display=swap');
+
+html {
+    min-height: 100vh;
+    position: relative;
+}
+
+html::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('bg.png');
+    background-repeat: repeat;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+body {
+    font-family: Roboto Mono, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1f25;
+    color: #f4f1ff;
+    text-align: center;
+}
+
+h1 {
+    color: #ff6a00;
+    margin-top: 50px;
+}
+
+h3 {
+    color: #9c9aa3;
+}
+
+section {
+    margin: 50px auto;
+    max-width: 800px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #353640;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+h2 {
+    color: #ff6a00;
+}
+a {
+    color: #ff6a00;
+}
+
+.project {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.project h3 {
+    color: #f4f1ff;
+}
+
+ul {
+    text-align: left;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+strong {
+    color: #ff6a00;
+}
